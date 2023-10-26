@@ -59,7 +59,7 @@ function Footer(props: LngProps) {
         )}
         &nbsp;
         <Image
-          src="https://visitor-badge.laobi.icu/badge?page_id=viber.kjxbyz.com"
+          src="https://visitor-badge.laobi.icu/badge?page_id=ytmusic.kjxbyz.com"
           width={60}
           height={20}
           alt="visitor badge"
