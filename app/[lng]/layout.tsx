@@ -28,7 +28,6 @@ export async function generateMetadata({
     title: params.lng === "en" ? "YTMusic" : "YTMusic",
     description: `${params.lng === "en" ? "YTMusic" : "YTMusic"}.`,
     metadataBase: new URL("https://kjxbyz.com"),
-    themeColor: "#FFF",
     icons: {
       icon: "/ytmusic/logo.jpg",
     },
