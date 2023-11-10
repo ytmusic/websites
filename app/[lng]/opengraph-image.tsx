@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { ImageResponse } from "next/og";
+import { basePath } from "@/constants";
 
 export const runtime = "edge";
 export const alt = "YTMusic - An unofficial YouTube music desktop client.";
@@ -26,7 +27,7 @@ export default async function OG() {
         }}
       >
         <img
-          src="/ytmusic/logo.jpg"
+          src={`${basePath}/logo.jpg`}
           alt="Precedent Logo"
           tw="w-20 h-20 mb-4 opacity-95"
         />
