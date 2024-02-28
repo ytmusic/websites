@@ -1,7 +1,5 @@
 # ytmusic
 
-[![CodeFactor](https://www.codefactor.io/repository/github/alisoft/ytmusic/badge)](https://www.codefactor.io/repository/github/alisoft/ytmusic)
-
 ## Setup
 
 Make sure to install the dependencies:
