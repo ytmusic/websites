@@ -31,7 +31,7 @@ export default function Header(props: LngProps) {
       <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between xl:mx-auto">
         <Link
           href={`/${props.lng}`}
-          className="flex items-center font-display text-2xl"
+          className="font-display flex items-center text-2xl"
         >
           <Image
             src={`${basePath}/logo.jpg`}
@@ -50,7 +50,7 @@ export default function Header(props: LngProps) {
             <li className="h-8 w-8 sm:h-9 sm:w-9">
               <div className="relative inline-block text-left">
                 <Link
-                  href="https://github.com/viberapp/viberapp.github.io"
+                  href="https://github.com/alisoft/viber"
                   target="_blank"
                   className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full transition-all duration-75 focus:outline-none active:scale-95 sm:h-9 sm:w-9"
                 >
